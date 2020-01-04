@@ -17,9 +17,9 @@ document.getElementById('calculate').addEventListener('click', function() {
     if (bill.value) {
         tipamount.innerHTML = "Tip Amount: " + "£" + tiptotal.toFixed(2); 
     }
-    let billtotal = (parseInt(bill.value) + parseInt(tiptotal));
+    let billtotal = (parseFloat(bill.value) + parseFloat(tiptotal));
     if (bill.value) {
-        totalbill.innerHTML = "Total Bill: " + "£" + billtotal;
+        totalbill.innerHTML = "Total Bill: " + "£" + billtotal.toFixed(2);
     }
  });
 
