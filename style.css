@@ -1,0 +1,78 @@
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    background-color: #dfe6e9;
+    padding: 20px 0 80px 0;
+}
+
+#bill {
+    width: 30%;
+    height: 50px;
+    position: relative;
+    left: 35%;
+    border: none;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 15px;
+}
+
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 30%; /* Full-width */
+    height: 25px; /* Specified height */
+    background:white; /* Grey background */
+    outline: none; /* Remove outline */
+    position: relative;
+    left: 35%;
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: pink; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  #demo {
+    position: relative;
+    left: 35%;
+    bottom: 8px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #totalbill {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    left: 35%;
+    top: 48%;
+  }
+
+  #tipamount {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    left: 35%;
+    top: 45%;
+  }
+
+  .wrapper {
+    text-align: center;
+}
+
+#calculate {
+    position: absolute;
+    top: 40%;
+    right: 47%;
+}
