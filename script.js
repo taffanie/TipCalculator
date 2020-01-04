@@ -15,7 +15,7 @@ bill.addEventListener('input', function() {
 document.getElementById('calculate').addEventListener('click', function() {
     let tiptotal = (bill.value * slider.value /100);
     if (bill.value) {
-        tipamount.innerHTML = "Tip Amount: " + "£" + tiptotal; 
+        tipamount.innerHTML = "Tip Amount: " + "£" + tiptotal.toFixed(2); 
     }
     let billtotal = (parseInt(bill.value) + parseInt(tiptotal));
     if (bill.value) {
